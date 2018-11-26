@@ -1,0 +1,120 @@
+body{
+	background: url("../image/body-bg.jpg");
+	background-repeat: repeat-x repeat-y; 
+}
+
+.wrapper{
+	width: 755px;
+	margin:0 auto;
+}
+
+.logo{
+	width: 346px;
+	margin:0 auto;
+}
+
+.navigation{
+	margin-bottom: 20px;
+
+}
+
+.navigation ul{
+	margin:0;
+	padding:0;
+	border-bottom: 4px solid #9dc5f0;
+}
+
+.navigation ul li{
+	margin-right: -5px;
+	padding: 12px 27px 11px 34px; 
+	border: 1px solid rgba(0,0,0,0.1);
+	font-size:14px;
+	font-family: Arial;
+}
+
+
+.mainImage{
+	margin-bottom: 25px;
+}
+
+
+.leftDesk{
+	float:left;
+	width: 478px;
+	background-color: #fff; 
+}
+
+.leftDesk h2{
+	font-family: Times New Roman;
+	color: #555555;
+	font-size: 24px;
+	padding-top: 35px;
+	padding-left: 30px;
+}
+
+.leftDeskContent{
+	padding-right: 37px;
+	padding-left: 30px;
+	padding-bottom: 94px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.leftDeskContent p{
+	margin-top: 10px 
+}
+
+
+.rightDesk{
+	float:right;
+	width: 267px;
+	background: #fff;
+}
+
+.rightDesk h2{
+	font-family: Georgia;
+	color: #333333;
+	font-size: 24px;
+	padding-top: 35px;
+	padding-left: 30px;
+}
+
+.rightDeskContent{
+	font-family: Trebuchet MS;
+	font-size: 14px;
+	padding-left: 30px;
+	padding-right: 12px;
+	padding-bottom: 143px;
+}
+
+.footerP {
+	font-family: Arial;
+	color:rgba(95,93,103,0.5);
+	font-size: 12px;
+	text-align: left;
+}
+
+
+.inline-block{
+	display: inline-block;
+}
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
